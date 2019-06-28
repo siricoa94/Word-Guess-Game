@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="assets/javascript/game.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Hangman</title>
 </head>
+
 <body>
-    
+    <header>
+        <h1>Word Guess</h1>
+    </header>
+    <div class="container">
+        <instructions>Try to figure out which sea of the seven is being displayed as</instructions>
+        <div id="underscore"></div>
+        <div id="RGplaceholder">Right guess</div>
+        <div id="rightGuess"></div>
+        <div id="WGplaceholder">Wrong guess</div>
+        <div id="wrongGuess"></div>
+        <!-- <img src="assets/images/2-WordGuess.jpg"> -->
+    </div>
+    <div class="Scoreboard">
+        <div id="remainingGuess">Remaining Guesses</div>
+        <div id="remainingCount"></div>
+    </div>
 </body>
+    <footer>
+        &copy;Andrew
+    </footer>
+<script src="assets/javascript/game.js"></script>
+
 </html>

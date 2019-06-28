@@ -1,0 +1,104 @@
+body {
+  background-image: url("../images/ocean.jpg");
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: turquoise;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+
+h1 {
+  position: absolute;
+  top: 5%;
+  left: 39.5%;
+  width: 220px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  text-emphasis: bold;
+  background-color: violet;
+  border: solid black 10px;
+  color: black;
+  align-self: center;
+}
+
+.Scoreboard {
+  width: 100px;
+  height: 100px;
+  background-color: hotpink;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  border: solid lime 5px;
+}
+
+instructions {
+  position: absolute;
+  top: 5%;
+  left: 26.9%;
+  position: absolute;
+  width: 220px;
+  font-family: 'Times New Roman', Times, serif;
+  text-emphasis: bold;
+  text-align:center;
+  background-color: violet;
+  border: solid black 8px;
+  color: black;
+}
+
+#underscore {
+  position: absolute;
+  top: 55%;
+  left: 43%;
+
+}
+
+#rightGuess {
+  position: absolute;
+  top: 69%;
+  left: 43%;
+}
+
+#wrongGuess {
+  position: absolute;
+  top: 85%;
+  left: 43%;
+}
+
+#WGplaceholder {
+  position: absolute;
+  top: 75%;
+  left: 43%;
+}
+
+#RGplaceholder {
+  position: absolute;
+  top: 65%;
+  left: 43%;
+}
+
+#remainingGuess {
+  position: absolute;
+  top:15%;
+  left: 10%;
+}
+
+#remainingCount {
+  position: absolute;
+  top: 65%;
+  left: 30%;
+}
+footer {
+  position: fixed;
+  height: 30px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+}
