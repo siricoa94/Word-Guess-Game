@@ -28,11 +28,11 @@ h1 {
 .Scoreboard {
   width: 100px;
   height: 100px;
-  background-color: hotpink;
+  background-color: violet;
   position: absolute;
   top: 30%;
   left: 20%;
-  border: solid lime 5px;
+  border: solid black 5px;
 }
 
 instructions {
@@ -101,4 +101,24 @@ footer {
   color: white;
   text-align: center;
   font-family:'Times New Roman', Times, serif;
+}
+#score {
+  position: absolute;
+  top: 30%;
+  left: 69%;
+  border: solid 5px black;
+  background-color:violet;
+  width:100px;
+  height:100px;
+  text-align:center;
+}
+#winTrack {
+  position: absolute;
+  top: 25%;
+  left: 69%;
+  border: solid 5px black;
+  background-color:violet;
+  width:100px;
+  height:20px;
+  text-align:center;
 }

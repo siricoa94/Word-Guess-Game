@@ -4,6 +4,7 @@ var rightWords = [];
 var wrongWords = [];
 var underScore = [];
 var guessesLeft = 15;
+var scoreStart = 0;
 
 
 var docUnderScore = document.getElementById("underscore");
@@ -13,6 +14,8 @@ console.log("this is the rightGuess object");
 var docWrongGuess = document.getElementById("wrongGuess");
 console.log("this is the wrongGuess object");
 var remainingCount = document.getElementById("remainingCount");
+var score = document.getElementById("score");
+score.textContent = scoreStart
 remainingCount.textContent = guessesLeft
 
 function generateUnderscore() {
@@ -81,6 +84,8 @@ document.onkeyup = function (event){
 
     if (!underScore.includes("_ ")) {
         alert("You won")
+        scoreStart++
+        score.textContent = scoreStart
         // reset game
         reset()
     }
